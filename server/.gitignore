@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Environment files & secrets
+.env
+.env.production
+.env.local
+
+# Uploads directory (keep directory, ignore uploaded files)
+uploads/*
+!uploads/.gitkeep
+
+# Logs & temp files
+*.log
+tmp/
